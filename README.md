@@ -1,4 +1,3 @@
-```markdown
 # Desafio Anlix
 
   - [Sobre o desafio](#sobre-o-desafio)
@@ -14,7 +13,7 @@
 
 ### Rest API
 
-Temos uma série de arquivos de texto localizados no diretório dados que contêm informações diversas sobre pacientes terminais internados em um hospital. Esses arquivos são fornecidos por diferentes departamentos e, por isso, sempre vêm separadamente. Cada arquivo dentro de um departamento tem datas distintas, o que representa as características dos pacientes em diferentes momentos. Precisamos desenvolver um software com uma base de dados que possa ser consultada por meio de uma API REST para:
+O desafio consiste em criar uma base de dados consultável através de uma API REST, que deve manipular informações sobre pacientes em um hospital. O objetivo é criar funcionalidades que permitam:
 
 * [X] Consultar individualmente as características mais recentes de cada paciente;
 
@@ -44,7 +43,7 @@ Temos uma série de arquivos de texto localizados no diretório dados que contê
 
 Além da API, é necessário disponibilizar algumas informações em uma interface web. Os requisitos são:
 
-* [ ] Buscar um paciente por nome e exibir o valor mais recente de cada uma de suas características;
+* [X] Buscar um paciente por nome e exibir o valor mais recente de cada uma de suas características;
 * [ ] Exibir um gráfico temporal para um paciente e uma característica específica, através da interface;
 * [ ] Exportar as características de um ou mais pacientes para um arquivo CSV com todas as datas disponíveis.
 

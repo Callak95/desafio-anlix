@@ -98,4 +98,3 @@ Os testes de API foram realizados utilizando Postman.
 - **OpenCSV**: 5.5
 - **Postman**: 8.0
 - **IntelliJ IDEA**: 2021.1
-```
